@@ -114,4 +114,4 @@ class RobotCleaner:
 if __name__ == "__main__":
     cleaner = RobotCleaner()
 
-    cleaner2.execute_commands(["move 100", "turn 90", "set brush", "start", "move 30", "stop"])
+    cleaner.execute_commands(["move 100", "turn 90", "set brush", "start", "move 30", "stop"])
